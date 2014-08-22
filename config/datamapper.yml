@@ -1,0 +1,69 @@
+development:
+  adapter: in_memory
+  repositories:
+    '1162':
+      adapter: rest
+      host: <%= ENV['DEVELOPER_ZONE_HOST'].inspect %> 
+      port: <%= ENV['DEVELOPER_ZONE_PORT'] %> 
+      format: <%= ENV['DEVELOPER_ZONE_FORMAT'].inspect %> 
+      scheme: <%= ENV['DEVELOPER_ZONE_SCHEME'].inspect %> 
+      auth_scheme: <%= ENV['DEVELOPER_ZONE_AUTH_SCHEME'].inspect %> 
+      omniauth_ver_1_consumer_key: <%= ENV['DEVELOPER_ZONE_OMNIAUTH_VER_1_CONSUMER_KEY'].inspect %> 
+      omniauth_ver_1_private_key: <%= ENV['DEVELOPER_ZONE_OMNIAUTH_VER_1_PRIVATE_KEY'].inspect %> 
+      prefix: <%= ENV['DEVELOPER_ZONE_PREFIX'].inspect %> 
+      disable_format_extension_in_request_url: <%= ENV['DEVELOPER_ZONE_DISABLE_FORMAT_EXTENSION_IN_REQUEST_URL'] %> 
+      limit_param_name: <%= ENV['DEVELOPER_ZONE_LIMIT_PARAM_NAME'].inspect %> 
+      offset_param_name: <%= ENV['DEVELOPER_ZONE_OFFSET_PARAM_NAME'].inspect %> 
+      collection_selector: <%= ENV['DEVELOPER_ZONE_COLLECTION_SELECTOR'].inspect %> 
+      logging_level: <%= ENV['DEVELOPER_ZONE_LOGGING_LEVEL'].inspect %> 
+      enable_form_urlencoded_submission: <%= ENV['DEVELOPER_ZONE_ENABLE_FORM_URLENCODED_SUBMISSION'] %> 
+      enable_query_param_as_uri_encoded_json_hash: <%= ENV['DEVELOPER_ZONE_ENABLE_QUERY_PARAM_AS_URI_ENCODED_JSON_HASH'] %> 
+      override_default_xml_collection_selector: <%= ENV['DEVELOPER_ZONE_OVERRIDE_DEFAULT_XML_COLLECTION_SELECTOR'] %> 
+      extra_http_headers: <%= ENV['DEVELOPER_ZONE_EXTRA_HTTP_HEADERS'].inspect %> 
+ 
+test:
+  adapter: in_memory
+  repositories:
+    '1162':
+      adapter: in_memory
+      host: <%= ENV['DEVELOPER_ZONE_HOST'].inspect %> 
+      port: <%= ENV['DEVELOPER_ZONE_PORT'] %> 
+      format: <%= ENV['DEVELOPER_ZONE_FORMAT'].inspect %> 
+      scheme: <%= ENV['DEVELOPER_ZONE_SCHEME'].inspect %> 
+      auth_scheme: <%= ENV['DEVELOPER_ZONE_AUTH_SCHEME'].inspect %> 
+      omniauth_ver_1_consumer_key: <%= ENV['DEVELOPER_ZONE_OMNIAUTH_VER_1_CONSUMER_KEY'].inspect %> 
+      omniauth_ver_1_private_key: <%= ENV['DEVELOPER_ZONE_OMNIAUTH_VER_1_PRIVATE_KEY'].inspect %> 
+      prefix: <%= ENV['DEVELOPER_ZONE_PREFIX'].inspect %> 
+      disable_format_extension_in_request_url: <%= ENV['DEVELOPER_ZONE_DISABLE_FORMAT_EXTENSION_IN_REQUEST_URL'] %> 
+      limit_param_name: <%= ENV['DEVELOPER_ZONE_LIMIT_PARAM_NAME'].inspect %> 
+      offset_param_name: <%= ENV['DEVELOPER_ZONE_OFFSET_PARAM_NAME'].inspect %> 
+      collection_selector: <%= ENV['DEVELOPER_ZONE_COLLECTION_SELECTOR'].inspect %> 
+      logging_level: <%= ENV['DEVELOPER_ZONE_LOGGING_LEVEL'].inspect %> 
+      enable_form_urlencoded_submission: <%= ENV['DEVELOPER_ZONE_ENABLE_FORM_URLENCODED_SUBMISSION'] %> 
+      enable_query_param_as_uri_encoded_json_hash: <%= ENV['DEVELOPER_ZONE_ENABLE_QUERY_PARAM_AS_URI_ENCODED_JSON_HASH'] %> 
+      override_default_xml_collection_selector: <%= ENV['DEVELOPER_ZONE_OVERRIDE_DEFAULT_XML_COLLECTION_SELECTOR'] %> 
+      extra_http_headers: <%= ENV['DEVELOPER_ZONE_EXTRA_HTTP_HEADERS'].inspect %> 
+ 
+production:
+  adapter: in_memory
+  repositories:
+    '1162':
+      adapter: rest
+      host: <%= ENV['DEVELOPER_ZONE_HOST'].inspect %> 
+      port: <%= ENV['DEVELOPER_ZONE_PORT'] %> 
+      format: <%= ENV['DEVELOPER_ZONE_FORMAT'].inspect %> 
+      scheme: <%= ENV['DEVELOPER_ZONE_SCHEME'].inspect %> 
+      auth_scheme: <%= ENV['DEVELOPER_ZONE_AUTH_SCHEME'].inspect %> 
+      omniauth_ver_1_consumer_key: <%= ENV['DEVELOPER_ZONE_OMNIAUTH_VER_1_CONSUMER_KEY'].inspect %> 
+      omniauth_ver_1_private_key: <%= ENV['DEVELOPER_ZONE_OMNIAUTH_VER_1_PRIVATE_KEY'].inspect %> 
+      prefix: <%= ENV['DEVELOPER_ZONE_PREFIX'].inspect %> 
+      disable_format_extension_in_request_url: <%= ENV['DEVELOPER_ZONE_DISABLE_FORMAT_EXTENSION_IN_REQUEST_URL'] %> 
+      limit_param_name: <%= ENV['DEVELOPER_ZONE_LIMIT_PARAM_NAME'].inspect %> 
+      offset_param_name: <%= ENV['DEVELOPER_ZONE_OFFSET_PARAM_NAME'].inspect %> 
+      collection_selector: <%= ENV['DEVELOPER_ZONE_COLLECTION_SELECTOR'].inspect %> 
+      logging_level: <%= ENV['DEVELOPER_ZONE_LOGGING_LEVEL'].inspect %> 
+      enable_form_urlencoded_submission: <%= ENV['DEVELOPER_ZONE_ENABLE_FORM_URLENCODED_SUBMISSION'] %> 
+      enable_query_param_as_uri_encoded_json_hash: <%= ENV['DEVELOPER_ZONE_ENABLE_QUERY_PARAM_AS_URI_ENCODED_JSON_HASH'] %> 
+      override_default_xml_collection_selector: <%= ENV['DEVELOPER_ZONE_OVERRIDE_DEFAULT_XML_COLLECTION_SELECTOR'] %> 
+      extra_http_headers: <%= ENV['DEVELOPER_ZONE_EXTRA_HTTP_HEADERS'].inspect %> 
+ 
